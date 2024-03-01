@@ -1,5 +1,6 @@
 from prefect import flow, get_run_logger
 
+# Some comment
 @flow(name="Demo")
 def basic_flow():
     logger = get_run_logger()
